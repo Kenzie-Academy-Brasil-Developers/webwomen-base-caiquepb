@@ -73,7 +73,7 @@ function renderJobApplication(array) {
 
     applicationList.innerHTML = ''
 
-    if(array.length <= 0){
+    if(array.length <= 0 || null){
         
         const emptyApplicataion = emptyJobApplicataion()
 
