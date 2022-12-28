@@ -1,0 +1,186 @@
+.main__title{
+
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--title-4);
+    line-height: 32px;
+
+    margin: 2.5rem 5%;
+
+}
+
+.list__container{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 32px;
+
+    width: 90%;
+
+}
+
+.job__container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 38px;
+    gap: 28px;
+    
+    min-width: 344px;
+    max-height: 530px;
+
+    
+    
+    background: var(--color-grey-6);
+    border-radius: 8px;
+
+}
+
+.job__box1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+
+    width: 268px;
+    height: 106px;
+
+}
+
+.job__title{
+
+    font-size: var(--title-4);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 33px;
+
+}
+
+.job__box2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+
+    width: 205px;
+    height: 22px;
+
+}
+
+.job__box2--text{
+
+    font-size: var(--text-3);
+    font-weight: 400;
+    color: var(--color-grey-2);
+    line-height: 22px;
+
+}
+
+.job__text{
+
+    font-size: var(--text-2);
+    font-weight: 400;
+    color: var(--color-grey-2);
+    line-height: 32px;
+    
+}
+
+.job__box3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    
+    width: 268px;
+    height: 100px;
+    
+}
+
+.job__box3--tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+    width: 111px;
+    height: 30px;
+
+    background: var(--color-grey-3);
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: var(--color-grey-2);
+}
+
+.job__box3--button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+
+    width: 268px;
+    height: 38px;
+
+    background: var(--color-brand-1);
+
+    border: 2px solid var(--color-brand-1);
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: var(--text-2);
+    line-height: 24px;
+
+    color: var(--color-grey-6);
+}
+
+.job__box3--buttonRemove{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+
+    width: 268px;
+    height: 38px;
+
+    background: var(--color-brand-1);
+
+    border: 2px solid var(--color-brand-1);
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: var(--text-2);
+    line-height: 24px;
+
+    color: var(--color-grey-6);
+}
+
+@media(min-width: 1400px){
+
+    .main__container{
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .list__container{
+  
+      width: 60%;
+      margin: 0 2.5% 2.5rem 5%;
+  
+    }
+  
+}

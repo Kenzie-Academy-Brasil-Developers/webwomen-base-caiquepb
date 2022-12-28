@@ -27,3 +27,5 @@ const jobsData = [
     modalities: ["Home Office", "Presencial"],
   },
 ];
+
+const jobsApplication = []

@@ -1,0 +1,98 @@
+.aside__container{
+
+    min-width: 344px;
+    min-height: 367px;
+
+    width: 90%;
+    
+    background: var(--color-grey-6);
+    border-radius: 8px;
+
+    margin: 2.5rem 5%
+
+}
+
+.aside__title{
+    text-align: center;
+
+    padding: 32px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: var(--color-grey-1);
+
+}
+
+.aside__text{
+
+    padding: 32px;
+
+    font-weight: 400;
+    font-size: var(--text-2);
+    line-height: 32px;
+
+    color: var(--color-grey-2);
+
+}
+
+.aside__img {
+
+    margin: 2rem;
+
+}
+
+.application__container{
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 32px;
+    gap: 20px;
+
+    
+}
+
+.application__jobTitle{
+
+    width: 85%;
+    min-width: 230px;
+
+    font-size: var(--title-5);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 150%;
+
+}
+
+.application__button{
+    position: absolute;
+    top: 32px;
+    right: 14px;
+}
+
+.application__box2{
+
+    display: flex;
+    gap: 32px; 
+
+    font-weight: 400;
+    font-size: var(--text-3);
+    line-height: 22px;
+    color: var(--color-grey-2);
+
+}
+
+@media(min-width: 1400px){
+
+    .aside__container{
+
+        width: 40%;
+        margin: 0 5% 2.5rem 2.5%;
+
+    }
+
+}
