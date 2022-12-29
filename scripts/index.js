@@ -62,7 +62,8 @@ function createJob(array) {
 }
 
 function renderLocalStorage(){
-    const storage = JSON.parse(localStorage.getItem('@webWoman:jobApplication'))
+
+    const storage = JSON.parse(localStorage.getItem('@webWoman:jobApplication')) || []
 
     return renderJobApplication(storage)
 }
@@ -73,7 +74,7 @@ function renderJobApplication(array) {
 
     applicationList.innerHTML = ''
 
-    if(array.length <= 0 || null){
+    if(array.length <= 0){
         
         const emptyApplicataion = emptyJobApplicataion()
 
